@@ -1,0 +1,16 @@
+Como iniciar um package.json
+
+1 - no terminal, dentro da pasta do projeto digite: npm init
+vai pedir o nome do projeto, description e outras coisas opcionais, no final digita yes.
+
+outras dependencias para instalar:
+
+express - framework do node, fornece recursos para o desenvolvimento web e mobile, usa protocol http, facil de criar 
+api's
+body-parser - pacote responsavel por realizar o parse (serialização das informações que serão enviadas atraves das 
+requisições)
+cors - natureza da requisição que eu espero
+nodemon - pacote de servidor para automatizar as atualizações
+morgan - toda requisição vai ser visualizada (log)
+
+instalando todos de uma vez localmente: npm install express body-parser morgan cors nodemon
